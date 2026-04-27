@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-mono: "Courier New", Courier, monospace;
+}
+
+:root {
+  /* Bold Typography Theme Tokens Mapped to Custom Palette */
+  --color-bg-primary: #F3D1B1;      /* Soft Apricot */
+  --color-bg-secondary: #D0C6B1;    /* Pale Oak */
+  --color-heading-primary: #884828; /* Saddle Brown */
+  --color-body-text: #884828;       /* Saddle Brown */
+  --color-body-light: #A82D21;      /* Brick Red */
+  --color-accent: #DD4B3D;          /* Cinnabar */
+  --color-accent-light: #CEA48E;    /* Light Bronze */
+  --color-border-divider: #CEA48E;  /* Light Bronze */
+  
+  /* Additional derived colours for semantic use */
+  --color-nav-bg: rgba(243, 209, 177, 0.95);
+  /* Keeping variables that might be used later though unused right now */
+  --color-chart-bar: #90B4D4;
+  --color-chart-line: #E18350;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-body-text);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
