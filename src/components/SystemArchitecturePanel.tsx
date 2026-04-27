@@ -172,7 +172,7 @@ export const SystemArchitecturePanel = () => {
       <div className="w-[calc(100%+3rem)] md:w-[calc(100%+6rem)] -ml-6 md:-ml-12 relative border-y border-[#4a2912] overflow-x-auto overflow-y-hidden">
         <div className="min-w-[900px] lg:min-w-0 w-full relative mx-auto max-w-[2000px] aspect-[2959/1394] overflow-visible">
           <img 
-            src="/3D Schematic.png" 
+            src="/3D-Schematic.png"
             alt="System Architecture Schematic" 
             className="absolute inset-0 w-full h-full object-contain"
           />
